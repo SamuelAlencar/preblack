@@ -1,0 +1,941 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap);
+main {
+    width: 100%;
+    max-width: 100%
+}
+
+.x-footer {
+    background-color: #fff
+}
+
+.x-footer__seo {
+    background-color: #f9f9f9
+}
+
+.pre-blackfriday-color-marrom {
+    color: #be946a!important
+}
+
+.pre-blackfriday-color-branco {
+    color: #fff!important
+}
+
+.pre-blackfriday-color-preto {
+    color: #000!important
+}
+
+#pre-blackfriday {
+    background-color: #313131;
+    background-image: url(arquivos/bg-topo-black-friday-luz-desk.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center top
+}
+
+#pre-blackfriday .pre-blackfriday-header {
+    display: block;
+    margin: 0 auto
+}
+
+#pre-blackfriday .pre-blackfriday-header nav {
+    background-color: #232323;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 0
+}
+
+.fixed-menu {
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    top: 0
+}
+
+#pre-blackfriday .pre-blackfriday-header nav h1 {
+    line-height: 1;
+    justify-content: center;
+    align-self: center;
+    font-weight: 500;
+    font-size: 15px
+}
+
+#pre-blackfriday .pre-blackfriday-header nav h1 a {
+    color: #fff
+}
+
+#pre-blackfriday .pre-blackfriday-header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+#pre-blackfriday .pre-blackfriday-header nav ul li a {
+    color: #fff;
+    padding: 0 15px;
+    font-weight: 500;
+    font-size: 15px
+}
+
+#pre-blackfriday .pre-blackfriday-header nav h3 a:hover,
+#pre-blackfriday .pre-blackfriday-header nav ul li a:hover {
+    color: #be946a
+}
+
+@media only screen and (max-width:666px) {
+    #pre-blackfriday .pre-blackfriday-header nav {
+        padding: 10px 0
+    }
+    #pre-blackfriday .pre-blackfriday-header nav ul {
+        display: none
+    }
+    #pre-blackfriday .pre-blackfriday-header nav h1 {
+        padding: 15px 0
+    }
+}
+
+#pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    max-width: 1320px;
+    margin: 0 auto
+}
+
+#pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner .pre-blackfriday-col img {
+    width: 100%
+}
+
+#pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner .pre-blackfriday-col .pre-blackfriday-form {
+    max-width: 516px;
+    margin: 0 5px
+}
+
+#pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner .pre-blackfriday-col .pre-blackfriday-form form input[type=text] {
+    width: 49.6%
+}
+
+#pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner .pre-blackfriday-col .pre-blackfriday-form form input[type=text]:first-child {
+    margin-right: 4px
+}
+
+@media only screen and (max-width:966px) {
+    #pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner .pre-blackfriday-col .pre-blackfriday-form form input[type=text] {
+        width: 100%
+    }
+}
+
+#pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner .pre-blackfriday-col .pre-blackfriday-form form input[type=email] {
+    width: 100%
+}
+
+#pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner .pre-blackfriday-col .pre-blackfriday-form .dropfake {
+    background-color: #fff;
+    width: 100%;
+    margin: 2px 0 3px 0;
+    padding: 15px 15px;
+    font-size: 13px;
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+#pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner .pre-blackfriday-col .pre-blackfriday-form .dropfake:after {
+    font-family: tok-stok-iconfonts;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    vertical-align: top;
+    content: "\EA01";
+    height: 22px;
+    margin-left: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    transition: all .125s cubic-bezier(.4, 0, .2, 1);
+    display: inline-block;
+    float: right;
+    cursor: pointer
+}
+
+.pre-blackfriday-categorias-check {
+    display: flex;
+    position: absolute;
+    background-color: #fff;
+    flex-wrap: wrap;
+    padding: 15px;
+    border-radius: 4px;
+    display: none;
+    width: auto;
+    min-width: 516px;
+    margin-right: 5px
+}
+
+.pre-blackfriday-categorias-check .box-check {
+    width: 32%;
+    padding: 5px 0
+}
+
+.pre-blackfriday-categorias-check .box-check label {
+    margin-left: 5px
+}
+
+.ckeck-active {
+    display: flex
+}
+
+.seta-rotacionada:after {
+    transform: rotate(-180deg)
+}
+
+#pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner .pre-blackfriday-col .pre-blackfriday-form p {
+    font-size: 15px;
+    line-height: 16px;
+    color: #fff;
+    font-weight: regular;
+    padding: 15px 0 45px 0;
+    line-height: 1.2
+}
+
+#pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner .pre-blackfriday-col .pre-blackfriday-form .title-form {
+    font-family: Oswald, sans-serif;
+    font-size: 2.3em;
+    color: #be946a;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 60px 0 0;
+    line-height: 45px
+}
+
+#pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner .pre-blackfriday-col form input,
+#pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner .pre-blackfriday-col form select {
+    background-color: #fff;
+    margin: 2px 0;
+    padding: 15px 15px;
+    font-size: 13px;
+    border-radius: 4px
+}
+
+#pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner .pre-blackfriday-col .fin-cadastro-bfriday {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+#pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner .pre-blackfriday-col .fin-cadastro-bfriday input[type=checkbox] {
+    width: 30px;
+    height: 18px;
+    margin-right: 15px
+}
+
+#pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner .pre-blackfriday-col .fin-cadastro-bfriday input[type=submit] {
+    width: 157px;
+    height: 38px;
+    padding: 0;
+    font-family: Oswald, sans-serif;
+    font-size: 14px;
+    color: #000;
+    background-color: #be946a;
+    font-weight: 500;
+    text-transform: uppercase
+}
+
+#pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner .pre-blackfriday-col .fin-cadastro-bfriday input[type=submit]:hover {
+    opacity: .7
+}
+
+#pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner .pre-blackfriday-col .fin-cadastro-bfriday span {
+    color: #9a9a9a;
+    font-size: 13px
+}
+
+@media only screen and (max-width:666px) {
+    #pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner {
+        flex-wrap: wrap;
+        margin: 0 10px
+    }
+    #pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner .pre-blackfriday-col {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column
+    }
+    #pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner .pre-blackfriday-col .pre-blackfriday-form {
+        padding: 0 15px
+    }
+    #pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner .pre-blackfriday-col .pre-blackfriday-form .title-form {
+        text-align: center;
+        font-size: 1.8em;
+        line-height: 1.2;
+        padding: 0 15px;
+        margin-bottom: 20px
+    }
+    #pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner .pre-blackfriday-col .pre-blackfriday-form p {
+        line-height: 1.5;
+        padding: 0 15px;
+        text-align: center;
+        margin-bottom: 20px
+    }
+    #pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner .pre-blackfriday-col .fin-cadastro-bfriday {
+        display: inline-block
+    }
+    #pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner .pre-blackfriday-col .fin-cadastro-bfriday span {
+        display: inline-block;
+        width: 80%;
+        vertical-align: middle
+    }
+    #pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner .pre-blackfriday-col .fin-cadastro-bfriday input[type=submit] {
+        margin: 20px auto;
+        display: block
+    }
+}
+
+#pre-blackfriday main .pre-blackfriday-container .pre-blackfriday-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px auto
+}
+
+#pre-blackfriday main .pre-blackfriday-container .pre-blackfriday-row h2 {
+    font-family: Oswald, sans-serif;
+    font-size: 36px;
+    font-weight: initial;
+    text-align: center;
+    width: 100%
+}
+
+.light {
+    font-weight: 300!important
+}
+
+.font-subtit-internas {
+    font-size: 39px
+}
+
+#pre-blackfriday main .pre-blackfriday-container .pre-blackfriday-row .pre-blackfriday-card {
+    background-color: #232323;
+    max-width: 300px;
+    min-height: 300px;
+    margin: 10px 10px;
+    -webkit-box-shadow: 0 0 2px 0 rgba(0, 0, 0, .75);
+    -moz-box-shadow: 0 0 2px 0 rgba(0, 0, 0, .75);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .75)
+}
+
+#pre-blackfriday main .pre-blackfriday-container .pre-blackfriday-row .pre-blackfriday-card .pre-blackfriday-card-box {
+    margin: 15px;
+    border: solid 1px rgba(255, 255, 255, .1);
+    height: 300px;
+    max-height: 300px;
+    min-height: 90%;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: space-between
+}
+
+#pre-blackfriday main .pre-blackfriday-container .pre-blackfriday-row .pre-blackfriday-card .pre-blackfriday-card-box h3 {
+    text-align: center;
+    padding: 50px 25px 20px 25px;
+    font-family: Oswald, sans-serif;
+    font-size: 31px
+}
+
+@media only screen and (max-width:340px) {
+    #pre-blackfriday main .pre-blackfriday-container .pre-blackfriday-row .pre-blackfriday-card .pre-blackfriday-card-box h3 {
+        text-align: center;
+        padding: 0;
+        font-family: Oswald, sans-serif;
+        font-size: 31px
+    }
+}
+
+#pre-blackfriday main .pre-blackfriday-container .pre-blackfriday-row .pre-blackfriday-card .pre-blackfriday-card-box p {
+    text-align: center;
+    padding: 0 30px 50px 30px;
+    font-size: 14px
+}
+
+#pre-blackfriday main .pre-blackfriday-container .pre-blackfriday-row.fundo-papelao {
+    background-color: #313131;
+    background-image: url(https://tokstok.vteximg.com.br/arquivos/ids/1872128/fundo-como-foi-black-friday-desk.png);
+    background-position: center top;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    padding-bottom: 25px
+}
+
+#pre-blackfriday main .pre-blackfriday-container .pre-blackfriday-row.fundo-papelao h2 {
+    width: 100%;
+    text-align: center;
+    line-height: 1;
+    margin-top: 30px;
+    font-size: 36px
+}
+
+#pre-blackfriday main .pre-blackfriday-container .pre-blackfriday-row.fundo-papelao .pre-blackfriday-box-numeros {
+    width: 240px;
+    margin: 40px 40px 0 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    letter-spacing: -1px
+}
+
+#pre-blackfriday main .pre-blackfriday-container .pre-blackfriday-row.fundo-papelao .pre-blackfriday-box-numeros .pre-blackstok-numeros {
+    font-size: 35px;
+    font-family: Oswald, sans-serif;
+    font-size: 100px;
+    color: #232323;
+    font-weight: 700
+}
+
+#pre-blackfriday main .pre-blackfriday-container .pre-blackfriday-row.fundo-papelao .pre-blackfriday-box-numeros .pre-blackstok-texto {
+    font-size: 25px;
+    color: #232323
+}
+
+.small-txt {
+    font-size: 41px;
+    vertical-align: middle;
+    display: inline-block;
+    vertical-align: super;
+    position: relative;
+    top: 10px;
+    vertical-align: middle;
+    display: inline-block;
+    vertical-align: super
+}
+
+#pre-blackfriday main .pre-blackfriday-container .pre-blackfriday-row .pre-blackfriday-categorias {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+#pre-blackfriday main .pre-blackfriday-container .pre-blackfriday-row .pre-blackfriday-categorias .pre-blackfriday-categoria-card a.pre-blackfriday-ico-categoria {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    padding: 0;
+    border: solid 3px #be946a;
+    border-radius: 50%;
+    background-color: #be946a;
+    transition: .5s cubic-bezier(.165, .84, .44, 1);
+    justify-content: center;
+    margin: 0
+}
+
+.pre-blackfriday-categoria-card {
+    cursor: pointer
+}
+
+.pre-blackfriday-categoria-card.slick-slide h3 {
+    padding-top: 15px
+}
+
+#pre-blackfriday main .pre-blackfriday-container .pre-blackfriday-row .pre-blackfriday-categorias .pre-blackfriday-categoria-card a.pre-blackfriday-ico-categoria svg {
+    align-self: center
+}
+
+#pre-blackfriday main .pre-blackfriday-container .pre-blackfriday-row .pre-blackfriday-categorias .pre-blackfriday-categoria-card a.pre-blackfriday-ico-categoria:hover {
+    background-color: rgba(0, 0, 0, 0)
+}
+
+#pre-blackfriday main .pre-blackfriday-container .pre-blackfriday-row .pre-blackfriday-categorias .pre-blackfriday-categoria-card a.pre-blackfriday-ico-categoria:hover svg {
+    align-self: center;
+    stroke: #be946a;
+    fill: #be946a
+}
+
+#pre-blackfriday main .pre-blackfriday-container .pre-blackfriday-row .pre-blackfriday-categorias .pre-blackfriday-categoria-card:hover h3 {
+    color: #be946a
+}
+
+.categorias-bg-tranparente {
+    background-color: rgba(0, 0, 0, 0)!important
+}
+
+#pre-blackfriday main .pre-blackfriday-container .pre-blackfriday-row .pre-blackfriday-categorias h1 {
+    line-height: 1;
+    margin: 40px 0 60px 0
+}
+
+#pre-blackfriday main .pre-blackfriday-container .pre-blackfriday-row .pre-blackfriday-categorias .pre-blackfriday-categoria-card h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 25px
+}
+
+.pre-blackfriday-bgcolorcinza {
+    background-color: #232323
+}
+
+.pre-blackfriday-fique-sabendo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 80px 0;
+    padding: 30px 0 15px 0
+}
+
+.pre-blackfriday-fique-sabendo .pre-blackfriday-color-branco h2 {
+    line-height: 1;
+    margin: 0 0 25px 0;
+    font-family: Oswald, sans-serif;
+    font-size: 36px;
+    font-weight: initial;
+    text-align: center
+}
+
+.pre-blackfriday-fique-sabendo .pre-blackfriday-color-branco p {
+    font-weight: initial;
+    text-align: center
+}
+
+.pre-blackfriday-fique-sabendo .pre-blackfriday-color-branco .pre-blackfriday-redes-sociais {
+    margin-top: 27px;
+    display: flex;
+    flex-direction: column
+}
+
+.pre-blackfriday-fique-sabendo .pre-blackfriday-color-branco .pre-blackfriday-redes-sociais .x-footer__social-links {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0
+}
+
+.pre-blackfriday-fique-sabendo .pre-blackfriday-color-branco .pre-blackfriday-redes-sociais p {
+    color: #be946a;
+    font-size: 1.2em;
+    font-weight: 600
+}
+
+.pre-blackfriday-fique-sabendo .pre-blackfriday-color-branco .pre-blackfriday-redes-sociais .icons-redes-sociais {
+    margin: 0 auto
+}
+
+.pre-blackfriday-fique-sabendo .pre-blackfriday-color-branco .pre-blackfriday-redes-sociais .icons-redes-sociais a {
+    width: 35px;
+    display: inline-block;
+    margin: 15px
+}
+
+.pre-blackfriday-row .pre-blackfriday-container-faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1130px;
+    margin: 50px 0;
+    width: 100%
+}
+
+.pre-blackfriday-row .pre-blackfriday-container-faq .pre-blackfriday-faq {
+    border-bottom: 1px #be946a solid;
+    width: 100%;
+    padding: 0 65px;
+    line-height: 1
+}
+
+.show-desktop {
+    display: block
+}
+
+.show-mobile {
+    display: none
+}
+
+@media only screen and (max-width:666px) {
+    .show-desktop {
+        display: none
+    }
+    .show-mobile {
+        display: block
+    }
+    .pre-blackfriday-row .pre-blackfriday-container-faq .pre-blackfriday-faq {
+        padding: 0 25px
+    }
+    #pre-blackfriday main .pre-blackfriday-container .pre-blackfriday-row .pre-blackfriday-card .pre-blackfriday-card-box p {
+        padding: 10px
+    }
+    #pre-blackfriday main .pre-blackfriday-container .pre-blackfriday-row .pre-blackfriday-card .pre-blackfriday-card-box h1 {
+        padding: 10px;
+        font-size: 30px;
+        line-height: 1
+    }
+    #pre-blackfriday main .pre-blackfriday-container .pre-blackfriday-row .pre-blackfriday-card .pre-blackfriday-card-box {
+        justify-content: center
+    }
+    #pre-blackfriday main .pre-blackfriday-container .pre-blackfriday-row .pre-blackfriday-categorias .pre-blackfriday-categoria-card h3 {
+        max-width: 150px
+    }
+}
+
+.pre-blackfriday-row .pre-blackfriday-container-faq .pre-blackfriday-faq h3 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: lighter;
+    margin: 20px 0 15px 0
+}
+
+.pre-blackfriday-row .pre-blackfriday-container-faq .pre-blackfriday-faq .texto-faq {
+    display: none;
+    color: #fff;
+    padding: 15px 0 0 0;
+    font-weight: lighter;
+    font-size: 17px
+}
+
+.faq-hide {
+    cursor: pointer;
+    font-size: 20px;
+    color: #be946a;
+    position: relative;
+    float: right;
+    padding: 5px;
+    font-weight: 400;
+    margin-top: -30px
+}
+
+.faq-show {
+    cursor: pointer;
+    font-size: 26px;
+    color: #be946a;
+    position: relative;
+    padding: 5px;
+    float: right;
+    display: none
+}
+
+.texto-faq p {
+    line-height: 1;
+    padding-bottom: 15px
+}
+
+.texto-faq p a {
+    line-height: 1;
+    padding-bottom: 15px;
+    text-decoration: underline
+}
+
+.faq-tit-bold {
+    font-weight: initial!important
+}
+
+.circle-menu-mobile {
+    position: fixed;
+    display: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #be946a;
+    bottom: 55px;
+    z-index: 3;
+    right: 7px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 1)
+}
+
+.circle-menu-mobile:before {
+    content: url(https://tokstok.vteximg.com.br/arquivos/ids/1874208/ico-menu-pre-brlack-friday.png);
+    width: 25px;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    right: 14px
+}
+
+@media only screen and (min-width:1260px) {
+    #pre-blackfriday main .pre-blackfriday-container .pre-blackfriday-row .pre-blackfriday-card .pre-blackfriday-card-box {
+        justify-content: center
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .pre-blackfriday-categorias-check {
+        min-width: 491px;
+        width: 491px
+    }
+}
+
+@media only screen and (max-width:812px) {
+    .pre-blackfriday-categorias-check {
+        min-width: 387px;
+        width: 387px
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .pre-blackfriday-categorias-check {
+        min-width: 365px;
+        width: 365px
+    }
+}
+
+@media only screen and (max-width:750px) {
+    .pre-blackfriday-categorias-check {
+        min-width: 350px;
+        width: 350px
+    }
+}
+
+@media only screen and (max-width:666px) {
+    .circle-menu-mobile {
+        display: block
+    }
+    .pre-blackfriday-categorias-check {
+        min-width: 365px;
+        width: 365px
+    }
+}
+
+@media only screen and (max-width:460px) {
+    .pre-blackfriday-categorias-check {
+        min-width: 373px;
+        width: 373px
+    }
+    .container-topo-header .icone-categoria a {
+        width: auto;
+        height: 100px
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .pre-blackfriday-categorias-check {
+        min-width: 335px;
+        width: 335px
+    }
+    .pre-blackfriday-categorias-check .box-check {
+        width: 50%
+    }
+}
+
+@media only screen and (max-width:340px) {
+    .pre-blackfriday-categorias-check {
+        min-width: 280px;
+        width: 280px
+    }
+    .pre-blackfriday-categorias-check .box-check {
+        width: 50%
+    }
+}
+
+.slick-slide {
+    margin: 0 20px
+}
+
+.slick-dots li button:before {
+    font-size: 75px;
+    padding-top: 30px;
+    color: #232323!important
+}
+
+.slick-dots li.slick-active button:before {
+    color: #be946a!important
+}
+
+.texto-categorias {
+    margin: 40px auto
+}
+
+.menu-responsive {
+    background-color: #fff;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    margin-left: 15px;
+    padding-right: 40px;
+    display: none;
+    overflow: auto;
+    z-index: 999
+}
+
+.menu-responsive ul {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding-top: 200px
+}
+
+.menu-responsive ul li {
+    padding: 5px 0
+}
+
+.couch-select-catergory__close {
+    float: right;
+    cursor: pointer
+}
+
+.x-overlay {
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: hsla(0, 0%, 61%, .8);
+    z-index: 3;
+    transition: all .3s;
+    cursor: pointer
+}
+
+.no-scrolling {
+    overflow: hidden;
+    height: 100%
+}
+
+.menu-reponsive-active {
+    display: block
+}
+
+.x-header {
+    background-color: #fff
+}
+
+.container-topo-header {
+    display: flex;
+    max-width: 516px;
+    align-self: center
+}
+
+.container-topo-header .icone-categoria {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%
+}
+
+.container-topo-header .icone-categoria a {
+    width: 120px;
+    height: 120px;
+    background-color: #be946a;
+    border-radius: 50%;
+    border: solid 3px #be946a;
+    transition: .5s cubic-bezier(.165, .84, .44, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.container-topo-header .texto-categoria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    max-width: 407px
+}
+
+.container-topo-header .texto-categoria h2 {
+    font-family: Oswald, sans-serif;
+    font-size: 50px;
+    color: #be946a;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1
+}
+
+.container-topo-header .texto-categoria h3 {
+    font-family: Oswald, sans-serif;
+    font-size: 39px;
+    color: #be946a;
+    text-transform: uppercase;
+    font-weight: lighter
+}
+
+.container-topo-header .texto-secundario p {
+    color: #fff;
+    font-size: 18px;
+    padding-top: 30px
+}
+
+.alinhar-vertical {
+    align-self: center
+}
+
+.cadastre-se {
+    color: #fff;
+    margin: 30px 0;
+    font-weight: 600;
+    font-size: 18px
+}
+
+.cadastre-se span {
+    border-bottom: 4px #be946a solid;
+    padding-bottom: 10px
+}
+
+#pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner-form {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    max-width: 100%!important;
+    margin: 0 auto;
+    padding: 60px 0;
+    margin: 40px 0
+}
+
+#pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner-form h3 {
+    font-family: Oswald;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: left;
+    color: #be946a;
+    text-transform: uppercase
+}
+
+#pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner-form p {
+    font-size: 14px
+}
+
+#pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner-form form select {
+    width: 100%
+}
+
+@media only screen and (max-width:666px) {
+    #pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner-form {
+        flex-direction: column;
+        padding: 30px 15px;
+        text-align: center
+    }
+    #pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner-form h3 {
+        text-align: center
+    }
+    .container-topo-header .texto-secundario p {
+        padding: 30px
+    }
+    #pre-blackfriday .pre-blackfriday-header .pre-blackfriday-banner-form .pre-blackfriday-col .fin-cadastro-bfriday span {
+        text-align: left
+    }
+    .container-topo-header .texto-categoria {
+        padding-left: 0;
+        text-align: center;
+        padding: 30px 0
+    }
+    .container-topo-header {
+        flex-direction: column
+    }
+    .pre-blackfriday-categoria-card {
+        cursor: pointer;
+        align-items: center;
+        display: flex!important;
+        flex-direction: column
+    }
+}
+
+.pre-blackfriday-box-modal {
+    display: none;
+}
